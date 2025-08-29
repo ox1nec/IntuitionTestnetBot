@@ -4,7 +4,7 @@ from datetime import date
 from loguru import logger
 
 # Only import Qt components if not running in container
-try:
+try: 
     from PySide6.QtWidgets import QTextEdit
     from PySide6.QtGui import QColor
     from PySide6.QtCore import QObject, Signal, Slot
